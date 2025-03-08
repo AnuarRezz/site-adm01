@@ -1,0 +1,25 @@
+.navbar-grid {
+    height: 68px;
+    grid-column: 2;
+    grid-row: 1;
+    background-color: #d3d3d3; /* Cor cinza claro na navbar */
+
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 100%;
+
+        img {
+            height: 48px;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar-grid {
+        height: 48px;
+        grid-column: 1;
+        background-color: #d3d3d3; /* Cor cinza claro na navbar para mobile também */
+    }
+}
